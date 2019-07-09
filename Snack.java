@@ -7,7 +7,6 @@ private class Snack{
 	private int quantity;
 	private int cost;
 	private int vendingId;
-	
 	public Snack(int id, String name, int quantity, int cost, int vendingId){
 		low++;
 		id = low;
@@ -27,7 +26,7 @@ private class Snack{
 		return name;
 	}
 	
-	public String setName(String name){
+	public void setName(String name){
 		return this.name = name;
 	}
 	
@@ -35,7 +34,7 @@ private class Snack{
 		return quantity;
 	}
 	
-	public int setQuantity(int quantity){
+	public void setQuantity(int quantity){
 		return this.quantity = quantity;
 	}
 	
@@ -43,7 +42,7 @@ private class Snack{
 		return cost;
 	}
 	
-	public int setCost(int cost){
+	public void setCost(int cost){
 		return this.cost = cost;
 	}
 	
@@ -51,7 +50,7 @@ private class Snack{
 		return vendingId;
 	}
 	
-	public int setVending(int vendingId){
+	public void setVending(int vendingId){
 		return this.vendingId = vendingId;
 	}
 }

@@ -1,6 +1,6 @@
-package java-SnackBar;
+package SnackBar;
 
-private class Snack{
+public class Snack{
 	private static int low = 12;
 	private int id;
 	private String name;
@@ -27,32 +27,32 @@ private class Snack{
 		return name;
 	}
 	
-	public String setName(String name){
-		return this.name = name;
+	public void setName(String name){
+		this.name = name;
 	}
 	
 	public int getQuantity(){
 		return quantity;
 	}
 	
-	public int setQuantity(int quantity){
-		return this.quantity = quantity;
+	public void setQuantity(int quantity){
+		this.quantity = quantity;
 	}
 	
 	public int getCost(){
 		return cost;
 	}
 	
-	public int setCost(int cost){
-		return this.cost = cost;
+	public void setCost(int cost){
+		this.cost = cost;
 	}
 	
 	public int getVending(){
 		return vendingId;
 	}
 	
-	public int setVending(int vendingId){
-		return this.vendingId = vendingId;
+	public void setVending(int vendingId){
+		this.vendingId = vendingId;
 	}
 }
 
