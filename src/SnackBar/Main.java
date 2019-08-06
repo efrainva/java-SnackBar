@@ -37,6 +37,17 @@ public class Main{
 		System.out.println("snack-5");
 		System.out.println(s5);
 
-		System.out.println(c1.setSpend(s1.setBuy(2)));
+		
+
+
+		System.out.println("---Process---");
+		
+		 System.out.println(c1.setSpend(s4.setBuy(3)));
+		 System.out.println(c1.setSpend(s3.setBuy(1)));
+		 System.out.println(c2.setSpend(s4.setBuy(2)));
+		 System.out.println(c1.setAdd(10));
+		 System.out.println(c1.setSpend(s1.setBuy(2)));
+		 System.out.println(s3.setAdd(12));
+		 System.out.println(c2.setSpend(s3.setBuy(3)));
 	}
 }

@@ -31,6 +31,10 @@ public class Customer{
 		double spend = this.cash - cash;
 		return spend;
 	}
+	public double setAdd(double cash){
+		double ad = this.cash + cash;
+		return ad;
+	}
 
 	@Override
 	public String toString(){

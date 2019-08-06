@@ -3,8 +3,7 @@ package SnackBar;
 public class Main{
 
 	public static void Main (String[] args){
-		Customer  1C = new Customer ()
-
-		System.out.println()
+		Customer c1 = new Customer ("jack",200);
+		System.out.println(c1);
 	}
 }

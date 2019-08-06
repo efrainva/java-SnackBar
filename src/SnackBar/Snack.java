@@ -57,8 +57,9 @@ public class Snack{
 	 	return price;
 	}
 
-	public void setAdd(int quantity){
-		this.quantity += quantity;
+	public int setAdd(int quantity){
+		int ad = this.quantity + quantity;
+		return ad;
 	}
 	public double getTotal(){
 		return cost*quantity;
